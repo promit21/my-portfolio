@@ -1,0 +1,129 @@
+/* header section start */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+   
+}
+.header-content{
+    padding: 100px 100px 100px 100px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 35%; 
+}
+.header-head{
+    color: aliceblue;
+    font-size: 50px;
+}
+.header-des{
+    color: aliceblue;
+    font-size: 20px;
+}
+.headerbtn{
+    padding: 20px;
+    width: 200px;
+    border: 0cap;
+    border-radius: 5px;
+    color: rgba(1, 157, 247, 0.993);
+    font-size: 20px;
+}
+/* header section end */
+
+.main-container{
+    display: flex;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+   
+}
+.main-content{
+   margin: auto;
+   width: 250px;
+   padding-right: 200px;
+   text-align: left;
+}
+
+.main-img{
+    padding-left:  200px;
+}
+.plan{
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.plan-item div{
+    background-color: beige;
+    box-shadow: 5px 4px 5px slategrey;
+    width: 20%;
+    height: 300px;
+    padding: 10px;
+}
+.plan-item div img{
+   width: 100px;
+    
+}
+.plan-item h1{
+    text-align: center;
+    font-style: italic;
+}
+.plan-item p{
+    font-size: 20px;
+    margin-top: 0%;
+    text-align: center
+}
+.gredian{ 
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+}
+.gredian h1, .headerbtn{
+    margin-left: 180px;
+}
+.gredian h1{
+    font-size: 60px;
+    color: rgb(23, 72, 235);
+}
+
+/* footer section */
+footer{
+    background-color: rgb(10, 10, 10);
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.footer-content{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px;
+    justify-content: space-between;
+}
+.footer-text{
+    width: 50%;
+    color: aliceblue;
+}
+.Subcribe h3{
+    color: aliceblue;
+    font-size: 30px;
+}
+.Subcribe input{
+    font-size: 15px;
+    padding: 10px;
+    width: 250px;
+    border: 0;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+}
